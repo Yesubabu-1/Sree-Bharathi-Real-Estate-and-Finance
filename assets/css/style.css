@@ -375,7 +375,7 @@ button, a { transition: var(--transition); }
   margin-bottom: 25px;
 }
 
-.navbar-top .logo img { width: 200px; }
+.navbar-top .logo img { width: 50px; }
 
 .nav-close-btn ion-icon {
   font-size: 20px;
