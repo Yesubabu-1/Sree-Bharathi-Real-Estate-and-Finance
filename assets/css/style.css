@@ -25,10 +25,10 @@
   --raisin-black-1: hsl(227, 29%, 13%);
   --raisin-black-2: hsl(229, 17%, 19%);
   --yellow-green: hsl(89, 72%, 45%);
-  --orange-soda: hsl(9, 100%, 62%);
+  --orange-soda: #2ecc6d;
   --cultured-1: hsl(0, 0%, 93%);
   --cultured-2: hsl(192, 24%, 96%);
-  --misty-rose: hsl(7, 56%, 91%);
+  --misty-rose: #176d3a;
   --alice-blue: hsl(210, 100%, 97%);
   --seashell: hsl(8, 100%, 97%);
   --cadet: hsl(200, 15%, 43%);
@@ -98,7 +98,9 @@ a,
 img,
 span,
 button,
-ion-icon { display: block; }
+ion-icon { display: block;
+fill-opacity : #2ecc6d;;
+}
 
 button {
   border: none;
@@ -207,7 +209,7 @@ button, a { transition: var(--transition); }
   font-size: var(--fs-5);
   font-weight: var(--fw-600);
   padding: 5px 20px;
-  background: hsla(9, 100%, 62%, 0.1);
+  background:#0d6a32;
   width: max-content;
   border-radius: 50px;
   margin-inline: auto;
@@ -343,7 +345,9 @@ button, a { transition: var(--transition); }
   padding-block: 25px;
 }
 
-.header-bottom .logo img { margin-inline: auto; }
+.header-bottom .logo img { margin-inline: auto;
+  width: 200px;
+}
 
 .navbar {
   background: var(--white);
@@ -375,7 +379,7 @@ button, a { transition: var(--transition); }
   margin-bottom: 25px;
 }
 
-.navbar-top .logo img { width: 50px; }
+.navbar-top .logo img { width: 200px; }
 
 .nav-close-btn ion-icon {
   font-size: 20px;
@@ -861,7 +865,7 @@ button, a { transition: var(--transition); }
 .features-card:is(:hover, :focus) { background: var(--orange-soda); }
 
 .features-card .card-icon {
-  background: var(--seashell);
+  background: #dff4e8;
   color: var(--orange-soda);
   width: 60px;
   height: 60px;
